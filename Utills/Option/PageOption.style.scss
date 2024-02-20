@@ -1,0 +1,100 @@
+.pageOption {
+  background-color: white;
+  padding: 23px 34px 23px 33px;
+  margin-top: 22px;
+  margin-left: 8px;
+  margin-right: -12px;
+
+  p.heading-page {
+    font-size: 22px;
+    font-weight: 700;
+    font-family: "Roboto Condensed";
+    margin-bottom: 11px;
+  }
+
+  label.section-head {
+    font-family: Lato;
+    font-size: 12px !important;
+    font-weight: 900;
+    line-height: 18px;
+    text-transform: uppercase;
+  }
+
+  button.events-page {
+    margin-right: 4px;
+    margin-top: 4px;
+    background-color: white;
+    padding: 3px 40px;
+    font-size: 14px;
+    font-family: Lato;
+  }
+
+  button.adBanner {
+    margin-top: 4px;
+    background-color: white;
+    padding: 3px 27px 3px 26px;
+    font-size: 14px;
+    font-family: Lato;
+  }
+
+  button.storeBanners {
+    margin-top: 4px;
+    background-color: white;
+    padding: 3px 15px 3px 16px;
+    font-size: 14px;
+    font-family: Lato;
+  }
+
+  .PageOptions {
+    border: 2px solid #ff2851;
+    color: #ff2851;
+  }
+
+  label.Section-title {
+    margin-top: 5px;
+    font-family: Lato;
+    font-size: 12px !important;
+    font-weight: 900;
+    line-height: 18px;
+    text-transform: uppercase;
+  }
+
+  input.upcoming-Text {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid lightgray;
+  }
+
+  label.Section-onsale {
+    font-family: Lato;
+    font-size: 12px !important;
+    font-weight: 900;
+    line-height: 18px;
+    text-transform: uppercase;
+  }
+}
+
+button.events-page {
+  border: 2px solid lightgray;
+  color: lightgray;
+}
+.editUpdateBtn {
+  background-color: #ff2851;
+  position: relative;
+  color: white;
+  z-index: 2;
+  border: none;
+  text-align: center;
+  padding: 6px 10px;
+  height: 100%;
+  font-weight: bold;
+  margin-top: 25px;
+  margin-right: 5px;
+}
+
+@media (min-width: 767px) and (max-width: 992px) {
+  button.events-page {
+    padding: 3px 20px !important;
+  }
+}

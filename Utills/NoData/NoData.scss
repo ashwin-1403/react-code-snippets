@@ -1,0 +1,33 @@
+.NoDataBg{
+    height: 50vh;
+    text-align: center;
+    position: relative;
+
+    img.NoDataImg {
+        width: 50%;
+        opacity: .4;
+    }
+    .NoContent {
+        height: 100%;
+        position: absolute;
+        top: 50%;
+        text-align: center;
+        width: 100%;
+        h2{
+            font-size: 32px;
+            font-weight: 700;
+            font-family: 'Roboto Condensed';
+        }
+     
+    }
+}
+@media (min-width:768px){
+    .NoDataBg{
+        .NoContent{
+            h2{
+                font-size: 70px;
+                font-weight: bold;
+            }
+        }
+    }
+}

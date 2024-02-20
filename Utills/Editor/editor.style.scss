@@ -1,0 +1,34 @@
+
+.editor-row{
+    margin-top: 5%;
+    overflow: hidden;
+}
+.jodit-status-bar{
+display: none;
+}
+.jodit-toolbar__box:not(:empty):not(:empty) {
+    background-color: #4CB8DC;
+    color: #fff;
+}
+.jodit-icon{
+    fill: #fff;
+}
+.jodit-toolbar-button__button:hover:not([disabled]){
+    background-color: transparent;
+}
+.content-type {
+    display: flex;
+    margin-top: 30px;
+    p.popup-content-head{
+        margin-right: 10px;
+    }
+}
+.jodit-workplace {
+    min-height: 250px !important;
+    max-height: 300px !important;
+    height: auto !important;
+    overflow: auto !important;
+}
+.RichTextSec{
+width: 100%;
+}

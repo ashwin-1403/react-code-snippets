@@ -1,0 +1,238 @@
+.sponser-child {
+  width: 95%;
+  margin: auto;
+
+  .compo {
+    label {
+      width: max-content;
+    }
+  }
+
+  .newFeaturedBtn {
+    position: relative;
+
+    .sponsorFeaturedBtn {
+      position: absolute;
+      bottom: 0px;
+      right: 0;
+      cursor: pointer;
+
+      .featured {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #ff2851;
+        padding: 9px;
+
+        img {
+          margin-right: 5px;
+        }
+      }
+
+      .deactiveFeature {
+        .featured {
+          background-color: #d3d3d3;
+        }
+      }
+    }
+  }
+
+  .CommonLabel {
+    font-size: 14px;
+    padding: 10px;
+    color: #000;
+    font-weight: bold;
+    font-family: "Roboto Condensed";
+    display: block;
+  }
+
+  label.Names-Sketch {
+    padding: 6px;
+    font-size: 15px;
+    font-weight: 600;
+  }
+
+  input.sponser-sketck {
+    width: 100%;
+    border: 1px solid lightgray;
+    padding: 8px 10px;
+  }
+
+  .linksofsketch {
+    padding-top: 15px;
+
+    label.cocert-web-link {
+      padding: 6px;
+      font-size: 15px;
+      font-weight: 600;
+    }
+
+    input.request-link {
+      width: 100%;
+      border: 1px solid lightgray;
+      padding: 8px 10px 8px 10px;
+    }
+  }
+
+  .select-item-component {
+    padding-top: 15px;
+    display: flex;
+    justify-content: space-between;
+
+    label.associate {
+      padding: 6px;
+      font-size: 15px;
+      font-weight: 600;
+    }
+
+    label.rangesss {
+      padding: 6px;
+      font-size: 15px;
+      font-weight: 600;
+    }
+
+    input.month {
+      padding: 8px 10px;
+      color: #555;
+
+      &::placeholder {
+        opacity: 0;
+      }
+    }
+
+    .dateRange {
+      margin-left: 15px;
+    }
+
+    .changemonth {
+      display: flex;
+    }
+
+    .compo {
+      width: 100%;
+    }
+  }
+
+  .sponser-right-side {
+    margin-bottom: 20px;
+  }
+
+  .sketch-images {
+    background-color: white;
+    padding: 20px;
+
+    img {
+      width: 100%;
+    }
+  }
+
+  .upld-btn {
+    padding-top: 15px;
+
+    button.uploadbtn {
+      width: 100%;
+      padding: 10px 10px 8px 10px;
+      border: none;
+      background-color: #ff2851;
+      color: white;
+      font-size: 18px;
+      font-weight: 600;
+    }
+  }
+
+  .react-dropdown-select {
+    border: solid 1px lightgray;
+    padding: 8px 10px;
+    appearance: none;
+    background-color: #fff;
+
+    .css-1aarvou-DropdownHandleComponent {
+      opacity: 0;
+    }
+
+    .css-1c8t16q-InputComponent::placeholder {
+      color: #fff;
+    }
+  }
+}
+
+.sponser-child .react-dropdown-select:hover,
+:focus-within {
+  box-shadow: none !important;
+  border-color: lightgray !important;
+}
+
+@media (min-width: 280px) and (max-width: 480px) {
+  .sponser-child {
+    .select-item-component {
+      display: block;
+    }
+
+    .changemonth {
+      display: block !important;
+    }
+
+    .dateRange {
+      margin-left: 0 !important;
+      margin-top: 12px;
+    }
+
+    input.month {
+      width: 100%;
+    }
+  }
+}
+
+@media (min-width: 480px) and (max-width: 768px) {
+  .sponser-child {
+    .select-item-component {
+      display: block;
+    }
+
+    .changemonth {
+      display: block !important;
+    }
+
+    .dateRange {
+      margin-left: 0 !important;
+      margin-top: 12px;
+    }
+
+    input.month {
+      width: 100%;
+    }
+  }
+}
+
+@media (min-width: 768px) and (max-width: 979px) {
+  .select-item-component {
+    display: block !important;
+  }
+
+  .changemonth {
+    display: block !important;
+  }
+
+  .dateRange {
+    margin-left: 0 !important;
+    margin-top: 12px;
+  }
+
+  input.month {
+    width: 100%;
+  }
+
+  .sponser-right-side {
+    padding-top: 16px;
+  }
+
+  .sketch-images {
+    padding: 15px !important;
+  }
+}
+
+@media (min-width: 979px) and (max-width: 1280px) {}
+
+.sponser-img {
+  width: 100%;
+}
